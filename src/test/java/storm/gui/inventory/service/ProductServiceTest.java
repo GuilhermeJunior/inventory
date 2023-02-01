@@ -1,9 +1,9 @@
-package storm.gui.service;
+package storm.gui.inventory.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import storm.gui.entity.Product;
-import storm.gui.enums.Operation;
+import storm.gui.inventory.entity.Product;
+import storm.gui.inventory.enums.Operation;
 
 import java.math.BigDecimal;
 

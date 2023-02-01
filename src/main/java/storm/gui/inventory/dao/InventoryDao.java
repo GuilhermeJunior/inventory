@@ -1,6 +1,6 @@
-package storm.gui.dao;
+package storm.gui.inventory.dao;
 
-import storm.gui.entity.Product;
+import storm.gui.inventory.entity.Product;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -64,7 +64,7 @@ public class InventoryDao {
         var indexByName = getIndexByName(name);
 
         if (indexByName < 0) {
-            throw new RuntimeException("Product does not exist");
+            return null;
         }
 
         return inventory.get(indexByName);

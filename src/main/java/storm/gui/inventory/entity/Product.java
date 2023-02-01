@@ -1,4 +1,4 @@
-package storm.gui.entity;
+package storm.gui.inventory.entity;
 
 import java.math.BigDecimal;
 import java.util.Objects;

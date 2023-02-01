@@ -1,8 +1,8 @@
-package storm.gui.service;
+package storm.gui.inventory.service;
 
-import storm.gui.dao.InventoryDao;
-import storm.gui.entity.Product;
-import storm.gui.enums.Operation;
+import storm.gui.inventory.dao.InventoryDao;
+import storm.gui.inventory.entity.Product;
+import storm.gui.inventory.enums.Operation;
 
 import java.util.List;
 

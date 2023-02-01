@@ -1,4 +1,4 @@
-package storm.gui.enums;
+package storm.gui.inventory.enums;
 
 public enum Operation {
     ADD,
